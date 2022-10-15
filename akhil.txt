@@ -1,0 +1,52 @@
+Cluster installer activities
+Explore these OpenShift Container Platform installation tasks.
+
+OpenShift Container Platform installation overview: You can install OpenShift Container Platform on installer-provisioned or user-provisioned infrastructure. The OpenShift Container Platform installation program provides the flexibility to deploy OpenShift Container Platform on a range of different platforms.
+
+Install a cluster on Alibaba: You can install OpenShift Container Platform on Alibaba Cloud on installer-provisioned infrastructure. This is currently a Technology Preview feature only.
+
+Install a cluster on AWS: You have many installation options when you deploy a cluster on Amazon Web Services (AWS). You can deploy clusters with default settings or custom AWS settings. You can also deploy a cluster on AWS infrastructure that you provisioned yourself. You can modify the provided AWS CloudFormation templates to meet your needs.
+
+Install a cluster on Azure: You can deploy clusters with default settings, custom Azure settings, or custom networking settings in Microsoft Azure. You can also provision OpenShift Container Platform into an Azure Virtual Network or use Azure Resource Manager Templates to provision your own infrastructure.
+
+Install a cluster on Azure Stack Hub: You can install OpenShift Container Platform on Azure Stack Hub on installer-provisioned infrastructure.
+
+Install a cluster on GCP: You can deploy clusters with default settings or custom GCP settings on Google Cloud Platform (GCP). You can also perform a GCP installation where you provision your own infrastructure.
+
+Install a cluster on IBM Cloud: You can install OpenShift Container Platform on IBM Cloud on installer-provisioned infrastructure.
+
+Install a cluster on IBM Power: You can install OpenShift Container Platform on IBM Power on user-provisioned infrastructure.
+
+Install a cluster on VMware vSphere: You can install OpenShift Container Platform on supported versions of vSphere.
+
+Install a cluster on VMware Cloud: You can install OpenShift Container Platform on supported versions of VMware Cloud (VMC) on AWS.
+
+Install a cluster with z/VM on IBM Z and LinuxONE: You can install OpenShift Container Platform with z/VM on IBM Z and LinuxONE on user-provisioned infrastructure.
+
+Install a cluster with RHEL KVM on IBM Z and LinuxONE: You can install OpenShift Container Platform with RHEL KVM on IBM Z and LinuxONE on user-provisioned infrastructure.
+
+Install an installer-provisioned cluster on bare metal: You can install OpenShift Container Platform on bare metal with an installer-provisioned architecture.
+
+Install a user-provisioned cluster on bare metal: If none of the available platform and cloud provider deployment options meet your needs, you can install OpenShift Container Platform on user-provisioned bare metal infrastructure.
+
+Install a cluster on Red Hat OpenStack Platform (RHOSP): You can install a cluster on RHOSP with customizations, with network customizations, or on a restricted network on installer-provisioned infrastructure.
+
+You can install a cluster on RHOSP with customizations or with network customizations on user-provisioned infrastructure.
+
+Install a cluster on Red Hat Virtualization (RHV): You can deploy clusters on Red Hat Virtualization (RHV) with a quick install or an install with customizations.
+
+Install a cluster in a restricted network: If your cluster that uses user-provisioned infrastructure on AWS, GCP, vSphere, IBM Z and LinuxONE with z/VM, IBM Z and LinuxONE with RHEL KVM, IBM Power, or bare metal does not have full access to the internet, then mirror the OpenShift Container Platform installation images using one of the following methods and install a cluster in a restricted network.
+
+Mirroring images for a disconnected installation
+
+Mirroring images for a disconnected installation using the oc-mirror plug-in
+
+Install a cluster in an existing network: If you use an existing Virtual Private Cloud (VPC) in AWS or GCP or an existing VNet on Azure, you can install a cluster.
+
+Install a private cluster: If your cluster does not require external internet access, you can install a private cluster on AWS, Azure, or GCP. Internet access is still required to access the cloud APIs and installation media.
+
+Check installation logs: Access installation logs to evaluate issues that occur during OpenShift Container Platform installation.
+
+Access OpenShift Container Platform: Use credentials output at the end of the installation process to log in to the OpenShift Container Platform cluster from the command line or web console.
+
+Install Red Hat OpenShift Data Foundation: You can install Red Hat OpenShift Data Foundation as an Operator to provide highly integrated and simplified persistent storage management for containers.
